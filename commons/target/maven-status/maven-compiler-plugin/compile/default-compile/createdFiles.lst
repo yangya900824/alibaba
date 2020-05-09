@@ -1,0 +1,5 @@
+com\weico\entity\Product.class
+com\weico\entity\CommonResult.class
+com\weico\service\UserService.class
+com\weico\entity\User.class
+com\weico\service\ProductService.class

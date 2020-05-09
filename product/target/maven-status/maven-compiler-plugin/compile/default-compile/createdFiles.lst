@@ -1,0 +1,7 @@
+com\weico\fegin\PaymentService.class
+com\weico\controller\ProductNacosController.class
+com\weico\controller\ProductController.class
+com\weico\controller\ProductRestController.class
+com\weico\fegin\PaymentFallbackService.class
+com\weico\ProductApplication.class
+com\weico\config\ApplicationContextConfig.class
