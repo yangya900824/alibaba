@@ -12,6 +12,7 @@
         <module>product</module>
         <module>commons</module>
         <module>config</module>
+        <module>gateway</module>
     </modules>
     <packaging>pom</packaging>
 

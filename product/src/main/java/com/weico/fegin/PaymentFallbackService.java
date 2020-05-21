@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class PaymentFallbackService implements PaymentService {
     @Override
     public String getUserById(Long id) {
-        return "null";
+        return "用户服务降级了";
     }
 }

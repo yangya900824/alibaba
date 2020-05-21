@@ -1,5 +1,6 @@
 package com.weico.controller;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.weico.fegin.PaymentService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -36,6 +37,7 @@ public class ProductNacosController {
     private PaymentService paymentService;
 
     @GetMapping("/consumer/fegin/{id}")
+    @SentinelResource
     public String paymentSQL(@PathVariable("id") Long id){
         return paymentService.getUserById(id);
     }
